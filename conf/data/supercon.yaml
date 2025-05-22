@@ -14,9 +14,12 @@ otf_graph: false
 eval_model_name: carbon
 
 
-train_max_epochs: 400
-early_stopping_patience: 10000
-teacher_forcing_max_epoch: 100
+train_max_epochs: 30
+  #train_max_epochs: 400
+early_stopping_patience: 1000
+  #early_stopping_patience: 10000
+teacher_forcing_max_epoch: 10
+  #teacher_forcing_max_epoch: 100
 
 
 datamodule:
